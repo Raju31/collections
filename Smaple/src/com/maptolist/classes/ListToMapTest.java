@@ -11,7 +11,7 @@ public class ListToMapTest {
 		l.add(new User(1,"siva"));
 		l.add(new User(2, "raju"));
 		l.add(new User(3, "yadav"));
-		
+		//getting the value from the list to map
 		Map map = l.stream().collect(Collectors.toMap(User::getId, User::getName));
 		System.out.println(map);
 	}
