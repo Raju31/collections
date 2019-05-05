@@ -18,14 +18,14 @@ public class LocalVaribles {
 		}
 		System.out.println(x);
 	}*/
-	public int x=10;
+	/*public int x=10;
 	private int x=20;
 	protected int x5=20;
 	static int x8=20;
 	transient int x6=20;
 	volatile int x1=20;
 	// it is valid
-	final int x3=20;
+	final int x3=20;*/
 	}
 	
 }
